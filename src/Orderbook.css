@@ -1,0 +1,30 @@
+.Orderbook-Container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Orderbook-bid{
+    height: 630px;
+    width: 390px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+
+.Orderbook-ask{
+    height: 630px;
+    width: 390px;
+    gap: 10px;
+}
+
+.Currency-Pair{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    gap: 8px; 
+}
+
+.Error{
+    padding-top: 25%;
+    margin: auto;
+}
